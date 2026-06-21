@@ -1,0 +1,218 @@
+@media screen and (max-width:768px){
+    body{
+    overflow-x:hidden;
+}
+ .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+ .hamburger{
+        display:block;
+        position:fixed;
+        top:15px;
+        right:20px;
+        z-index:1001;
+    }
+
+    .nav-section{
+        display:none; /* Hidden initially */
+        flex-direction:column;
+        position:fixed;
+        top:60px;
+        right:0;
+        width:250px;
+        height:auto;
+        padding:20px;
+        background:#2b1046;
+        z-index:1000;
+    }
+
+    .nav-section.active{
+        display:flex; /* Show when active */
+    }
+
+.intro-section{
+    flex-direction:column;
+    align-items:center;
+}
+
+#name{
+    margin-left:0;
+    text-align:center;
+    font-size:3rem;
+}
+
+.roless{
+    margin-left:0;
+    text-align:center;
+    font-size:1.2rem;
+}
+
+.intro{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    font-size:1rem;
+}
+
+#photo{
+    width:220px;
+    height:220px;
+    left:0;
+    top:0;
+    padding:20px;
+}
+
+.intro-but-div{
+    justify-content:center;
+    left:0;
+    bottom:0;
+    padding:10px;
+}
+#education{
+     margin:30px;
+}
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+.subhead{
+    font-size:2rem;
+}
+
+.roles{
+    grid-template-columns:1fr;
+    width:90%;
+}
+
+.about{
+    height:auto;
+    margin:30px;
+    padding-top:20px;
+}
+
+.about-content{
+    width:auto;
+    padding:15px;
+}
+
+.timeline{
+    padding-left:50px;
+}
+
+.timeline::before{
+    left:20px;
+}
+
+.edu-item{
+    width:auto;
+}
+
+.dot{
+    left:-40px;
+    top:70px;
+}
+
+.edu-card{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+    padding:20px;
+}
+
+.logo-section{
+    padding-left:0;
+}
+
+.logo-section img{
+    width:90px;
+    height:90px;
+}
+
+
+    .skills-container{
+        grid-template-columns:1fr;
+    }
+
+.details{
+    justify-content:center;
+    gap:15px;
+}
+ .slide img{
+        height:350px;
+    }
+
+        .slide-content{
+        left:50%;
+        bottom:20px;
+        transform:translateX(-50%);
+        width:90%;
+        text-align:center;
+    }
+
+    .slide-content h3{
+        padding-left:0;
+        font-size:1.2rem;
+    }
+
+    .slide-content p{
+        padding-left:0;
+        font-size:0.9rem;
+    }
+
+#participation{
+    padding:60px 5%;
+    overflow-x:hidden;
+}
+
+.participation-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:15px;
+    width:100%;
+}
+
+.participation-card{
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+.intro-section{
+    flex-direction:column;
+    align-items:center;
+}
+
+#name{
+    text-align:center;
+    margin-left:0;
+}
+
+.roless{
+    text-align:center;
+    margin-left:0;
+}
+
+.intro{
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+
+#photo{
+    left:0;
+}
+
+.edu-item{
+    width:auto;
+}
+.social-links{
+    border-top:1px solid #311848;
+}
+}

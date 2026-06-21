@@ -1,0 +1,54 @@
+.about{
+    position:relative;
+    height:500px;
+    margin:45px;
+    padding-bottom: 50px;
+    bottom:70px;
+}
+.subhead {
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.8rem;
+}
+.roles {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+.role-card {
+    padding: 15px;
+    border-radius: 25px;
+    background: rgba(125, 37, 208, 0.15);
+    border: 1px solid #a855f7;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 25px auto 0;
+    padding: 25px;
+    border: 2px solid #a855f7;
+    border-radius:20px;
+    text-align: left;
+}
+
+.about-content p {
+    text-align: center;
+    color: #ddd;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.role-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 0 20px #8345be;
+}
+.highlight {
+    color: #c084fc;
+    font-weight: bold;
+}

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshitha D-Portfolio</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="intro.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="achievement.css">
+    <link rel="stylesheet" href="activities.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    <!--Navigation Bar-->
+<header>
+    <nav class="nav-section" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Project</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#participation">Activities</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+        ☰
+    </div>
+</header>
+
+    <!--Intro section-->
+    <section class="intro-section" >
+        <div class="intro-div">
+            <h1 id="name"><span>Rakshitha D</span></h1>
+            <p class="roless"><span id="typing"></span><span class="cursor">|</span></p>
+            <p class="intro">Pre-final year Computer Science and Engineering student passionate about Java, MERN Stack Development, Data Structures & Algorithms, and building scalable software solutions.</p>
+            <div class="intro-but-div">
+                <a href="#activities" class="intro-button">View projects</a>
+                <button onclick="downloadResume()" class="intro-button" >Download Resume</button>
+            </div>
+        </div>
+        <div class="photo-div">
+            <img id="photo" src="uploads/photo.jpg" alt="photo">
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+        <h2 class="subhead">About Me</h2>
+        <div class="roles">
+            <div class="role-card">🎓 CSE Student</div>
+            <div class="role-card">☕ Java Enthusiast</div>
+            <div class="role-card">🧩 Problem Solver</div>
+            <div class="role-card">💻 Web Developer</div>
+        </div>
+        <div class="about-content">
+            <p>
+                Hello! <span class="highlight">I'm Rakshitha D</span>, a passionate Computer Science and Engineering student with a strong interest in software development, problem-solving, and emerging technologies.I enjoy transforming ideas into practical solutions through coding and continuously expanding my technical knowledge.
+                I actively strengthen my skills in Data Structures and Algorithms, object-oriented programming, and web development. I am enthusiastic about building projects that address real-world problems and provide meaningful user experiences.
+                Through academic learning and hands-on project development, I have gained experience in technologies such as Java, HTML, CSS, JavaScript, SQL, and Git/GitHub. I enjoy collaborating with others, learning new technologies, and taking on challenges that help me grow both technically and professionally.
+               </p>
+        </p>
+    </div>
+    </section>
+
+    <!--education section-->
+    <section id="education">
+        <h2 class="subhead">Education</h2>
+        <div class="timeline">
+        <div class="edu-item">
+            <div class="dot"></div>
+            <div class="edu-card">
+                <div class="logo-section">
+                    <img src="uploads/mit-logo.png" alt="MIT Logo">
+                </div>
+                <div class="content-section">
+                    <h2 style="font-family:Arial, Helvetica, sans-serif, Times, serif; color: white;margin-top:3px">Bachelor of Engineering</h2>
+                    <h3 style="font-family: 'Times New Roman', Times, serif; color: #c084fc;margin-top:3px">Madras Institute of Technology, Chennai</h3>
+                    <p style="margin-top:3px; color: #d1d5db;">Computer Science and Engineering</p>
+                    <hr>
+                    <div class="details" style="padding:3px">
+                        <span>⭐ CGPA: 8.75</span>
+                        <span>📅 2024 - Present</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="dot"></div>
+            <div class="edu-card">
+                <div class="logo-section">
+                    <img src="uploads/school-logo.jpg" alt="School Logo">
+                </div>
+                <div class="content-section">
+                    <h2 style="font-family:Arial, Helvetica, sans-serif, Times, serif;color: white;margin-top:3px">Higher Secondary Education</h2>
+                    <h3 style="font-family: 'Times New Roman', Times, serif;color: #c084fc;margin-top:3px">Bharathiyar Matric Hr. Sec. School</h3>
+                    <p style="margin-top:3px;color: #d1d5db;">
+                        Attur, Salem
+                    </p>
+                    <hr>
+                    <div class="details" style="padding:3px">
+                        <span>🏅 Marks: 95.67%</span>
+                        <span>📅 June 2023 - April 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="dot"></div>
+            <div class="edu-card">
+                <div class="logo-section">
+                    <img src="uploads/school-logo.jpg" alt="School Logo">
+                </div>
+                <div class="content-section">
+                    <h2 style="font-family:Arial, Helvetica, sans-serif, Times, serif;color: white;margin-top:3px">Senior Secondary Education</h2>
+                    <h3 style="font-family: 'Times New Roman', Times, serif;color: #c084fc;margin-top:3px">Bharathiyar Matric Hr. Sec. School</h3>
+                    <p style="color: #d1d5db;margin-top:3px">
+                        Attur, Salem
+                    </p>
+                    <hr>
+                    <div class="details" style="padding:3px">
+                        <span>🏅 Marks: 95.8%</span>
+                        <span>📅 June 2021 - April 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--skills section-->
+    <section id="skills">
+    <h2 class="subhead">Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <h3>💻 Programming Languages</h3>
+            <div class="skill-list">
+                <span>C</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <h3>🌐 Web Development</h3>
+            <div class="skill-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3>🛠 Tools & Platforms</h3>
+            <div class="skill-list">
+                <span>GitHub</span>
+                <span>Postman</span>
+                <span>VS Code</span>
+                <span>Canva</span>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <h3>🤝 Professional Strengths</h3>
+
+            <div class="skill-list">
+                <span>Problem Solving</span>
+                <span>Communication</span>
+                <span>Leadership</span>
+                <span>Teamwork</span>
+                <span>Time Management</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <!--project section-->
+    <section id="projects">
+        <h2 class="subhead">Projects</h2>
+
+        <div class="project-grid">
+
+            <!-- API Monitoring Dashboard -->
+            <div class="project-card">
+                <img src="uploads/api-monitor.jpeg" alt="API Monitoring Dashboard">
+
+                <div class="project-content">
+                    <h3>API Monitor</h3>
+
+                    <p>
+                        Real-time monitoring platform that tracks API uptime,
+                        response times, failures, and service health with analytics dashboards.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Spring Boot</span>
+                        <span>PostgreSQL</span>
+                        <span>Chart.js</span>
+                        <span>REST API</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/nebulastack24/API-monitoring.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CrisisNet -->
+            <div class="project-card">
+                <img src="uploads/resqnet.jpeg" alt="CrisisNet">
+
+                <div class="project-content">
+                    <h3>ResQNet</h3>
+
+                    <p>
+                        Emergency response platform that helps users report incidents
+                        and connect with nearby support.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                        <span>Socket.IO</span>
+                        <span>Leaflet.js</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/nebulastack24/crisisnet.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CivGo -->
+            <div class="project-card">
+                <img src="uploads/civgo.jpeg" alt="CivGo">
+                <div class="project-content">
+                    <h3>CivGo</h3>
+                    <p>
+                        Citizen service portal simplifying public grievance
+                        management and tracking.
+                    </p>
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/nebulastack24/CivGo.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LostFinder -->
+            <div class="project-card">
+                <img src="uploads/assettrace.png" alt="LostFinder">
+
+                <div class="project-content">
+                    <h3>AssetTrace</h3>
+
+                    <p>
+                        Platform to report and search for lost and found
+                        items efficiently.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                        <span>Restful APIs</span>
+                        <span>Azure</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/nebulastack24/campustracker.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CT Attendance Calculator -->
+            <div class="project-card">
+                <img src="uploads/ct-attendance-calci.jpeg" alt="CT Attendance Calculator">
+
+                <div class="project-content">
+                    <h3>CT Attendance Calci</h3>
+
+                    <p>
+                        Smart attendance calculator that helps students track
+                        attendance percentage and predict required classes.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/nebulastack24/CT-attendance-calci.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MindMeld -->
+            <div class="project-card">
+                <img src="uploads/mindmeld.jpeg" alt="MindMeld">
+
+                <div class="project-content">
+                    <h3>MindMeld</h3>
+                    <p>
+                        Wellness platform providing mood tracking,
+                        personalized insights, and supportive resources.
+                    </p>
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Java </span>
+                        <span>Servlets</span>
+                        <span>JDBC</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/nebulastack24/MindMeld.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!--achievement section-->
+        <section class="achievement-slider" id="achievements">
+        <h2>Achievements & Certifications</h2>
+
+        <div class="slider">
+
+            <div class="slide active">
+                <img src="uploads/web-trap.jpeg" alt="">
+                <div class="slide-content">
+                    <h3>🏆 Web Trap Winner</h3>
+                    <p>Prayatna'26 • ACT-MIT</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="uploads/symbiotic-search.jpeg" alt="">
+                <div class="slide-content">
+                    <h3>🥇 Symbiotic Search Winner</h3>
+                    <p>Prayatna'26 • ACT-MIT</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="uploads/tech-escape.jpeg" alt="">
+                <div class="slide-content">
+                    <h3>🥈 Runner-Up</h3>
+                    <p>Tech Escape Room • Samhita'26</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="uploads/sprintathon.jpeg" alt="">
+                <div class="slide-content">
+                    <h3>🚀 National Level Hackathon</h3>
+                    <p>Sprintathon'25 • Protothon'26</p>
+                </div>
+            </div>
+
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+
+        </div>
+    <section id="participation">
+        <h2 class="subhead" id="activities">Activities</h2>
+        <div class="participation-card">
+            <h3>NSS Camp – Somangalam</h3>
+            <p>Participated in community service and social welfare activities through the National Service Scheme (NSS).</p>
+        </div>
+        <div class="participation-card">
+            <h3>Blockchain Workshop</h3>
+            <p>Attended a hands-on Blockchain Technology Workshop conducted at College of Engineering, Guindy (CEG).</p>
+        </div>
+        <div class="participation-card">
+            <h3>Competitive Programming</h3>
+            <p>Solved 150+ coding problems across LeetCode and GeeksforGeeks, strengthening problem-solving and algorithmic skills.</p>
+        </div>
+        <div class="participation-card">
+            <h3>Hackathons & Coding Contests</h3>
+            <p>Shortlisted in two hackathons and actively participated in multiple coding competitions.</p>
+        </div>
+
+        <div class="participation-card">
+            <h3>Web Team Member</h3>
+            <p>Contributed as a Web Team Member in the Personality Development Association, assisting in web-related activities and event support.</p>
+        </div>
+
+        <div class="participation-card">
+            <h3>Volunteer – Sparish'26</h3>
+            <p>Served as a volunteer for Sparish'26, organized by the Rotaract Club of MIT, supporting event coordination and management.</p>
+        </div>
+    </section>
+
+    <footer class="connect">
+        <h2 class="subhead">Connect</h2>
+        <div class="social-links">
+            <a href="https://github.com/nebulastack24" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:rakshidurai24@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://leetcode.com/u/nc4B3JDjsb/" target="_blank">
+                <i class="fas fa-code"></i>
+            </a>
+        </div>
+        <div>
+           <p style="font-size:large; text-align:center;">Crafted with <span style="color:red;">❤</span> by © 2026 Rakshitha D
+        </p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navMenu = document.getElementById("navMenu");
+
+        hamburger.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+        });
+        function toggleMenu() {
+            document.querySelector(".nav-section").classList.toggle("active");
+        }
+        document.querySelectorAll(".nav-section a").forEach(link => {
+            link.addEventListener("click", () => {
+                document.querySelector(".nav-section").classList.remove("active");
+            });
+        });
+
+
+        const roles=["Aspiring Software Developer","Java Enthusiast","Problem Solver"];
+        let i=0;
+        function changeText()
+        {
+            document.getElementById("typing").textContent=roles[i];
+            i=(i+1)%roles.length;
+        }
+        changeText();
+        setInterval(changeText,2000);
+
+        //downloading resume
+        function downloadResume(){
+            window.location.href="uploads/resume.pdf";
+        }
+
+            const slides = document.querySelectorAll(".slide");
+            const nextBtn = document.querySelector(".next");
+            const prevBtn = document.querySelector(".prev");
+            let current = 0;
+            function showSlide(index){
+            slides.forEach(slide =>
+                slide.classList.remove("active")
+            );
+
+        slides[index].classList.add("active");
+    }
+
+        nextBtn.addEventListener("click",()=>{
+            current = (current + 1) % slides.length;
+            showSlide(current);
+        });
+
+        prevBtn.addEventListener("click",()=>{
+            current = (current - 1 + slides.length) % slides.length;
+            showSlide(current);
+        });
+    </script>
+</body>
+</html>

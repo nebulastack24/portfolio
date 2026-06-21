@@ -1,0 +1,76 @@
+
+#education{
+    position:relative;
+    padding-bottom: 50px;
+    bottom:90px;
+}
+
+.timeline{
+    position: relative;
+    padding-left:160px;
+}
+.timeline::before{
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: #a855f7;
+    border-radius: 10px;
+}
+
+.edu-item{
+    position: relative;
+    margin-bottom: 50px;
+    width:100%;
+    max-width:1000px;
+    height:fit-content;
+}
+.dot{
+    position: absolute;
+    left: -72px;
+    top: 90px;
+    width: 21px;
+    height: 21px;
+    background: #0d061f;
+    border: 2px solid #c084fc;
+    border-radius: 50%;
+    box-shadow:
+        0 0 10px #c084fc,
+        0 0 20px #c084fc;
+}
+.edu-card{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(141, 75, 202, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    transition: .3s ease;
+    position:relative;
+}
+.logo-section{
+    padding-left:40px;
+    border-radius:200px;
+}
+.content-section hr{
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,.15);
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.details span{
+    color: #c084fc;
+    font-weight: 200;
+}
+.logo-section img{
+    border-radius: 10%;
+    border: 3px solid #a855f7;
+}
