@@ -2,13 +2,14 @@
     body{
     overflow-x:hidden;
 }
- .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-    }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #311848;
+    z-index: 1000;
+}
  .hamburger{
         display:block;
         position:fixed;
@@ -16,7 +17,6 @@
         right:20px;
         z-index:1001;
     }
-
     .nav-section{
         display:none; /* Hidden initially */
         flex-direction:column;
